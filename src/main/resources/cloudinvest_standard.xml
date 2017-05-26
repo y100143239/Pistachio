@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.springframework.org/schema/beans"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="QueryService" class="com.thinkive.sj1.cloudinvest.service.cloudService.impl.QueryServiceImpl"/>
+	<bean id="ControlService" class="com.thinkive.sj1.cloudinvest.service.cloudService.impl.ControlServiceImpl"/>
+	<bean id="InvestPlanService" class="com.thinkive.sj1.cloudinvest.service.cloudService.impl.InvestPlanServiceImpl"/>
+	<bean id="UserManagerService" class="com.thinkive.sj1.cloudinvest.service.cloudService.impl.UserManagerServiceImpl"/>
+	<bean id="SeoService" class="com.thinkive.sj1.cloudinvest.service.cloudService.impl.SeoServiceImpl"/>
+	<bean id="PortfolioService" class="com.thinkive.sj1.cloudinvest.service.cloudService.impl.PortfolioServiceImpl"/>
+	<bean id="UnifiedLogin" class="com.thinkive.sj1.cloudinvest.service.unifiedService.imp.UnifiedLoginImpl"/>
+	<!-- <bean id="HucjDemoService" class=" com.thinkive.sj1.cloudinvest.service.demo.impl.HucjDemoServiceImpl"/> -->
+	<bean id="CommonTradeQueryService" class="com.thinkive.sj1.cloudinvest.service.tradeService.CommonTradeQueryService"/>
+	<bean id="MineService" class="com.thinkive.sj1.cloudinvest.service.cloudService.impl.MineServiceImpl"/>
+	<bean id="CommunityService" class="com.thinkive.sj1.cloudinvest.service.cloudService.impl.CommunityServiceImpl"/>
+	<!-- 问答 -->
+	<bean id="QuesService" class="com.thinkive.sj1.cloudinvest.service.cloudService.impl.QuesServiceImpl"/>
+	<!-- 支付 -->
+	<bean id="OrderPay" class="com.thinkive.sj1.cloudinvest.service.payService.imp.OrderPayImpl"/>
+	<!-- 第三方登陆-->
+	<bean id="SocietyLoginService" class="com.thinkive.sj1.cloudinvest.service.society.impl.SocietyLoginServiceImpl"/>
+	<!-- 资金账号-->
+	<bean id="CapitalAccountService" class="com.thinkive.sj1.cloudinvest.service.society.impl.CapitalAccountServiceImpl"/>
+	<!-- 观点-->
+	<bean id="PointService" class="com.thinkive.sj1.cloudinvest.service.cloudService.impl.PointServiceImpl"/>
+	<!-- 调用投顾系统-->
+	<bean id="AdviserSevice" class="com.thinkive.sj1.cloudinvest.service.third.impl.AdviserSeviceImpl"/>
+	<!-- 调用短信接口 -->
+	<bean id="SmsSendService" class="com.thinkive.sj1.cloudinvest.smssend.service.imp.SmsSendServiceImpl"/>
+</beans>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="GBK"?>
+<system>
+	<category name="system" description="系统相关配置">
+		<item name="isDevelop" value="0" description="是否开发环境 0或空:不是 1:是"></item>
+		<item name="service_conf_path" value="current_standard.xml" description="服务类映射配置文件" />
+		<item name="corpId" value="20151027000000004" description="统一账户系统公司编号"/>
+    	<item name="appId"  value="20151027000000001" description="统一账户系统应用编号"/>
+		<item name="encrypt" value="AES" description="加密算法  AES/Blowfish配置项  一定要与Openfire安装时保持一致"/>
+		<item name="pushCertName" value="thinkive-im-push-cert.p12" description="苹果消息推送服务器证书名称"/>
+    	<item name="pushCertPassword" value="123" description="苹果消息推送服务器证书密码"/>
+    	<item name="filterPwdField"   value="password|bank_pwd|trdpwd" description="打印日志需要过滤的字段,多个字段用|分割"/>
+    	<item name="isOpenHttpAuthorize" value="1" description="是否打开Http接口授权拦截 ,如果打开则需要申请sessionKey后才能调用HTTP接口"/>
+    	<item name="isPushOfflineMessage" value="0" description="离线消息是否进行推送 ,1推送   0不推送"/>
+    	<item name="offlineMessageMaxDays" value="30" description="聊天消息最大保留时间,单位天"/>
+    	<item name="offlineGroupMessageMaxDays" value="30" description="离线群组消息最大保留时间,单位天"/>"
+	</category>
+	
+	<category name="rabbitmq" description="rabbitmq的配置">
+		<item name="host" value="120.25.62.37" description="ip地址"></item>
+		<item name="port" value="5672" description="端口"></item>
+		<item name="username" value="admin" description="用户名"></item>
+		<item name="password" value="888888" description="密码"></item>
+	</category>
+	
+	<category name="mongodb" description="mongodb的配置">
+		<item name="ip" value="120.25.62.37" description="ip地址"></item>
+		<item name="port" value="27017" description="端口号"></item>
+		<item name="database_name" value="" description="ip地址"></item>
+	</category>
+
+	<category name="smack" description="smark用户名和密码配置,用于消息推送">
+		<item name="username" value="admin"   description="系统默认推送消息用户账号"/>
+		<item name="password" value="888888"  description="系统默认推送消息用户密码"/>
+		<item name="resource" value="pc" 	  description="系统默认推送消息资源名称"/>
+		<item name="ip"   	  value="192.168.3.254" description="消息服务器IP地址"/>
+		<item name="port" 	  value="5222" 	 description="消息服务器端口地址"/>
+	</category>
+
+	<category name="redis" description="redis服务器相关配置">
+		<item name="url" value="127.0.0.1:6379" description="redis服务器地址"/>
+		<item name="password" value="" description="redis服务器认证密码"/>
+		<item name="maxTotal" value="100" description="最大连接数,为-1标示不限制"/>
+		<item name="maxIdle"  value="10" description="最大空闲连接数"/>
+		<item name="minIdle"  value="1" description="最小空闲连接数"/>
+		<item name="maxWait"  value="-1" description="最大连接等待毫秒数"/>
+		<item name="timeout"  value="5000" description="连接超时时间"/>
+  	    <item name="testOnBorrow" value="false"  description="获取连接时是否检查有连接效性"/>
+		<item name="testOnReturn" value="false"  description="返回连接给池子时是否检查连接有效性"/>
+        <item name="testWhileIdle" value="false" description="空闲时是否检查连接有效性,该属性只在timeBetweenEvictionRunsMillis值大于0才起作用"/>
+        <item name="timeBetweenEvictionRunsMillis" value="-1"  description="逐出扫描的时间间隔(毫秒),如果为负数,则不运行逐出线程"/>
+        <item name="blockWhenExhausted" value="false"  description="连接耗尽时是否阻塞, false报异常,ture阻塞直到超时"/>
+		<item name="numTestsPerEvictionRun" value="50"  description="每次逐出检查时逐出的最大数目"/>
+	</category>
+</system>

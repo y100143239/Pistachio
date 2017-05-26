@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration> 	
+	<mappers>
+	<!--平台操作-->
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_portfolioService.xml" />
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_querService.xml" />
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_QueryService.xml" />
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_userManager.xml" />
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_InvestPlanService.xml"/>
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_ControlServiceImpl.xml"/>
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_SeoServiceImpl.xml"/>
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_ThrBankServiceImpl.xml"/>
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_MatchService.xml" />
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_PersonalSpaceService.xml" />
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_RzrqQueryService.xml" />
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_UserService.xml" />
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_CommonTradeQueryService.xml" />
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_CommonTradeService.xml" />
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_MatchSpaceService.xml" />
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_RecommendStockService.xml" />
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_StockQueryService.xml" />
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_VStockQueryService.xml" />
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_InvestService.xml" />
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_UnifiedLoginImpl.xml" />
+		<!-- <mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_HucjDemoService.xml" /> -->
+		<!-- 社区-->
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_CommunityService.xml" />
+		<!-- 我的 -->
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_MineService.xml" />
+		<!-- 问答-->
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_QuesService.xml" />
+		<!-- 支付 -->
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_PayService.xml" />
+		<!-- 观点 -->
+		<mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_PointService.xml" />
+		<!-- 第三方登陆 -->
+		<!-- <mapper resource="conf/sj1/cloudinvest/sql/sql_cloudinvest_SocietyService.xml" /> -->
+	</mappers>
+</configuration>

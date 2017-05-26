@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!--
+   说明：此文件用于配置系统中需要使用的数据源，在同一个系统中可以同时配置多个数据源。但只有一个是属于缺省的数据源。
+        在系统中有多个数据源的情况下，缺省数据源必须使用default属性进行说明。但在系统中只有一个数据源的情况下，
+        此属性可以忽略。
+        注意：系统中的所有数据源都使用C3P0实现，另外每一个datasource都必须要指定id，否则会跳过此定义，不会
+             建立相应的数据源。
+        添加<property name="encrypt">DES</property>密码加密方式(AES或DES)，如果选择AES加密，必须将database.dat文件放到WEB-INF/classes下,加密后的密码前缀为encrypt：
+-->
+<datasources default="web">
+   <datasource id="web">
+        <!-- 数据库地址和端口 -->
+        <property name="url">127.0.0.1:6379</property>
+        <!-- 数据库密码 -->
+        <property name="password">123456</property>
+        <!-- 说明一个pool可以有多少个Jedis实例 -->
+        <property name="maxTotal">300</property>
+        <!-- 最小Idle-->
+        <property name="minIdle">100</property>
+        <!-- 最大Idle-->
+        <property name="maxIdle">300</property>
+        <!--最大等待wait时间-->
+        <property name="maxWait">100</property>
+        <!--连接超时时间-->
+        <property name="timeout">100</property>
+        <!-- 获得一个jedis实例的时候是否检查连接可用性 -->
+        <property name="testOnBorrow">true</property>
+        <!-- 返回一个jedis实例给pool时，是否检查连接可用性 -->
+        <property name="testOnReturn">true</property>
+        <!-- idle状态监测用异步线程evict进行检查， -->
+        <property name="testWhileIdle">true</property>
+        <!-- 一次最多evict的pool里的jedis实例个数 -->
+        <property name="numTestsPerEvictionRun">300</property>
+        <!-- test idle 线程的时间间隔 -->
+        <property name="timeBetweenEvictionRunsMillis">60000</property>
+        <!-- 获取连接失败的时候是否阻塞 -->
+        <!-- true: 将会阻塞，直到有可用新的或者空闲的object为止，
+                   如果maxWait为正数，请求阻塞超时，将抛出NoSuchElementException.
+                   如果maxWait为负数，请求将会无限制的阻塞下去，默认配置-->
+        <!-- false: 直接抛出异常throw new NoSuchElementException("Pool exhausted")-->
+        <property name="blockWhenExhausted">false</property>
+        <!-- 密码加密方式 -->
+        <property name="encrypt">AES</property>
+    </datasource>
+</datasources>
