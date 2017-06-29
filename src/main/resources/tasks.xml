@@ -25,7 +25,7 @@
         <task-type>4</task-type>
         <task-name>OfflineGroupMessageTask</task-name>
         <description>每日定时清理离线群组消息</description>
-        <task-class>com.thinkive.im.task.OfflineGroupMessageTask</task-class>
+        <task-class>com.pistachio.im.task.OfflineGroupMessageTask</task-class>
         <task-interval>00:15</task-interval>
 	</task>
 	
@@ -33,7 +33,7 @@
         <task-type>4</task-type>
         <task-name>MessageLogTask</task-name>
         <description>每日定时清理聊天记录表数据</description>
-        <task-class>com.thinkive.im.task.MessageLogTask</task-class>
+        <task-class>com.pistachio.im.task.MessageLogTask</task-class>
         <task-interval>03:00</task-interval>
 	</task>
 </tasks>

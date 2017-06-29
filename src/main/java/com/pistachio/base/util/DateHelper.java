@@ -369,8 +369,3 @@ public class DateHelper
 		return formatDateTime(dateTime);
 	}
 }
-
-/* Location:           C:\Documents and Settings\Administrator\桌面\
- * Qualified Name:     com.thinkive.base.util.DateHelper
- * JD-Core Version:    0.5.4
- */

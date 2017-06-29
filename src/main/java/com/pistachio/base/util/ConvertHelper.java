@@ -148,7 +148,7 @@ public class ConvertHelper
 
     /**
      * 描述：数组转换为字符串
-     * 作者：李建  lijian@thinkive.com
+     
      * 时间：Mar 18, 2010 2:40:43 PM
      * @param arg0 数组
      * @return
@@ -164,7 +164,7 @@ public class ConvertHelper
 
     /**
      * 描述：数据转换为字符串
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：Mar 18, 2010 2:40:43 PM
      * @param arg0 数组
      * @param arg1 取数组个数
@@ -181,7 +181,7 @@ public class ConvertHelper
 
     /**
      * 描述：数据转换为字符串
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：Mar 18, 2010 2:40:43 PM
      * @param arg0 数组
      * @param arg1 间隔符号
@@ -194,7 +194,7 @@ public class ConvertHelper
 
     /**
      * 描述：数据转换为字符串
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：Mar 18, 2010 2:40:43 PM
      * @param arg0 数组
      * @param arg1 间隔符号
@@ -228,7 +228,7 @@ public class ConvertHelper
 
     /**
      * 描述：List转换为字符串
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：Mar 18, 2010 2:40:43 PM
      * @param list List数据
      * @return
@@ -240,7 +240,7 @@ public class ConvertHelper
 
     /**
      * 描述：List转换为字符串
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：Mar 18, 2010 2:40:43 PM
      * @param list List数据
      * @param separation 间隔符
@@ -253,7 +253,7 @@ public class ConvertHelper
 
     /**
      * 描述：字串数据元素包装
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：May 23, 2010 7:12:52 PM
      * @param sArr 字串数据
      * @param pre 前缀
@@ -267,7 +267,7 @@ public class ConvertHelper
 
     /**
      * 描述：字串数据元素包装
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：May 23, 2010 7:12:52 PM
      * @param sArr 字串数据
      * @param pre 前缀
@@ -282,7 +282,7 @@ public class ConvertHelper
 
     /**
      * 描述：字串数据元素包装
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：May 23, 2010 7:10:27 PM
      * @param sArr 字串数据
      * @param pre 前缀
@@ -375,7 +375,7 @@ public class ConvertHelper
 
     /**
      * 描述：生成字符串
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：Mar 18, 2010 2:48:39 PM
      * @param arg0 字符串元素
      * @param arg1 生成个数
@@ -392,7 +392,7 @@ public class ConvertHelper
 
     /**
      * 描述：生成字符串
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：Mar 18, 2010 2:48:39 PM
      * @param arg0 字符串元素
      * @param arg1 生成个数
@@ -425,7 +425,7 @@ public class ConvertHelper
 
     /**
      * 描述：生成字符串数据
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：Mar 18, 2010 2:48:39 PM
      * @param arg0 字符串元素
      * @param arg1 生成个数
@@ -452,7 +452,7 @@ public class ConvertHelper
     /**
      * 描述：行列转换及格式化日期（没有行标题,默认转换后列名）
      * 		转换后列名默认为 "line"+i;
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：May 12, 2010 8:21:02 PM
      * @param dataList query查出的List数据
      * @param lineNum 转换后列的个数
@@ -467,7 +467,7 @@ public class ConvertHelper
 
     /**
      * 描述：行列转换及格式化日期（没有行标题）
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：May 12, 2010 8:21:02 PM
      * @param dataList query查出的List数据
      * @param lineFieldsName 转换后列字段名
@@ -483,7 +483,7 @@ public class ConvertHelper
     /**
      * 描述：行列转换及格式化日期（默认转换后列名）
      * 		转换后列名默认为 "line"+i;
-     * 作者：李建  lijian@thinkive.com
+     *
      * 时间：May 12, 2010 8:21:02 PM
      * @param dataList query查出的List数据
      * @param lineNum 转换后列的个数
@@ -504,7 +504,7 @@ public class ConvertHelper
 
     /**
      * 描述：
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：May 13, 2010 11:35:03 AM
      * @param dataList query查出的List数据
      * @param lineFieldsName 转换后列字段名
@@ -588,7 +588,7 @@ public class ConvertHelper
 
     /**
      * 描述：
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：May 13, 2010 11:35:03 AM
      * @param dataList query查出的List数据
      * @param lineFieldsPreName 转换后列字段名前缀
@@ -606,7 +606,7 @@ public class ConvertHelper
 
     /**
      * 描述：
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：May 13, 2010 11:35:03 AM
      * @param dataList query查出的List数据
      * @param lineFieldsPreName 转换后列字段名前缀
@@ -699,7 +699,7 @@ public class ConvertHelper
 
     /**
      * 描述：只保留字符串的英文字母和“_”号
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：May 21, 2010 5:51:54 PM
      * @param str
      * @return
@@ -715,7 +715,7 @@ public class ConvertHelper
 
     /**
      * 描述：获取list中的某一列
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：May 23, 2010 11:54:39 AM
      * @param list List
      * @param lineName 列名（或字段名）
@@ -728,7 +728,7 @@ public class ConvertHelper
 
     /**
      * 描述：获取list中的某一列
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：May 23, 2010 11:54:39 AM
      * @param list List
      * @param lineName 列名（或字段名）
@@ -760,7 +760,7 @@ public class ConvertHelper
 
     /**
      * 描述：字串中的数字值加1
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：May 23, 2010 7:13:11 PM
      * @param str 字串
      * @param isAdd 数字值true：加，false：减
@@ -798,7 +798,7 @@ public class ConvertHelper
 
     /**
      * 描述：list 转换为 String[]
-     * 作者：李建  lijian@thinkive.com
+     * 作者：
      * 时间：May 26, 2010 4:27:29 PM
      * @param list
      * @return
